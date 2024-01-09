@@ -1,0 +1,42 @@
+# Ignore Visual Studio Code directories
+.vscode/
+
+# Ignore Terraform working directory
+.terraform/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform plan output
+*.tfout
+
+# Ignore secrets
+secrets.yml
+secrets.json
+*.pem
+*.p12
+*.key
+*.cer
+
+# Ignore logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+.idea/
+*.suo
+*.user
+*.suo
+*.user
+*.userosscache
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
