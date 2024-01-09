@@ -41,4 +41,4 @@ Este repositorio está destinado para propósitos de prueba y es un entorno de p
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+Este proyecto está bajo la licencia [Apache2.0](LICENSE).
