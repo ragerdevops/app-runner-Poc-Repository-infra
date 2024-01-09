@@ -22,16 +22,13 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 ## Despliegue de la Aplicación
 
-1. **Despliegue de la Infraestructura:**
-   - Modifica el fichero `variables.tf` indicando tu repositorio a conectar y pushea tus cambios al repositorio. 
-
-2. **Configuración de las Credenciales en GitHub:**
+1. **Configuración de las Credenciales en GitHub:**
    - Configura las [GitHub Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) con las credenciales de AWS necesarias para la pipeline. En este caso deberás de configurarlas en tu repositorio.
 
-3. **Configuración de AWS App Runner:**
+2. **Configuración de AWS App Runner:**
    - Ajusta las configuraciones necesarias en el fichero `variables.tf` según tus necesidades.
 
-4. **Despliegue Automático con GitHub Actions:**
+3. **Despliegue Automático con GitHub Actions:**
    - Cada vez que realices un push a la rama `main`, la pipeline de GitHub Actions se activará automáticamente, desencadenando el despliegue de la infrastructura necesaria para poder deployar nuestra app en AppRunner.
 
 ## Importante: Entorno de Prueba (PoC)
