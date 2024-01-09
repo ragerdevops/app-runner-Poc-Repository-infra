@@ -12,7 +12,7 @@ Este repositorio contiene el código fuente de Terraform para la creación y con
 ## Código Fuente de la Aplicación
 
 **Nota:** El código fuente de la aplicación no está incluido en este repositorio. Lo podréis encontrar en el siguiente repositorio:
-- [APP] ()
+- [APP] (https://github.com/ragerdevops/app-runner-Poc-Repository-app)
 
 ## Requisitos Previos
 
