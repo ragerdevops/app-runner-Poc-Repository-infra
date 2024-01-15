@@ -16,7 +16,6 @@ module "app_runner_shared_config_repo" {
     }
   }
 }
-
 resource "null_resource" "wait_for_approval" {
   depends_on = [module.app_runner_shared_config_repo]
 
